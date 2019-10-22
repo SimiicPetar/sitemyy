@@ -54,6 +54,7 @@
         <h4><b>Welcome to my Website I'm a web developer
 If you want to know more about my skills click on the button below and
 check it out!</b></h4>
+<p class="btn"><button type="button" class="btn btn-info" class="top">Find out more</button></p>
       </div>   
     </div>
    <div class="carousel-item">
@@ -63,8 +64,9 @@ check it out!</b></h4>
         <h4><b>Welcome to my Website I'm a web developer
 	If you want to know more about my skills click on the button below and
 	check it out!</b></h4>
+	<p class="btn"><button type="button" class="btn btn-info" class="top">Find out more</button></p>
       </div>   
-    </div> -->
+    </div>
     <div class="carousel-item">
       <img src="http://w2.wallls.com/uploads/original/201601/27/wallls.com_52204.png" width="100%" height="700">
       <div class="carousel-caption">
@@ -72,11 +74,11 @@ check it out!</b></h4>
        <h4><b>Welcome to my Website I'm a web developer
 		If you want to know more about my skills click on the button below and
 		check it out!</b></h4>
+		<p class="btn"><button type="button" class="btn btn-info" class="top">Find out more</button></p>
+
       </div>   
     </div>
 
-    <!--http://w2.wallls.com/uploads/original/201601/27/wallls.com_52204.png -->
-    <!--https://www.wallpaperflare.com/static/591/308/922/minimalism-planet-stars-simple-background-wallpaper.jpg-->
   </div>
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
@@ -162,6 +164,11 @@ check it out!</b></h4>
 	$(".button1").click(function() {
     $('html,body').animate({
         scrollTop: $("#linkA").offset().top},
+        'slow');
+});
+	$(".btn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#div4").offset().top},
         'slow');
 });
 
